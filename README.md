@@ -159,3 +159,7 @@ Walk behind a building or tree and Clawd shows through as a dithered silhouette.
 - `snapshot.py`: renders a frame to PNG without a terminal
   (`python3 snapshot.py out.png --at 11,15`)
 
+## Credits
+
+- [Michael Culleton](https://github.com/glaseagle)
+
