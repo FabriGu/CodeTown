@@ -161,5 +161,6 @@ Walk behind a building or tree and Clawd shows through as a dithered silhouette.
 
 ## Credits
 
+- [Fabrizio Guccione](https://github.com/FabriGu)
 - [Michael Culleton](https://github.com/glaseagle)
 
