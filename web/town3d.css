@@ -1,0 +1,22 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: rgb(30, 66, 112);
+  color: rgb(236, 236, 236); font: 13px/1.4 ui-monospace, Menlo, monospace; }
+canvas { display: block; }
+#status { position: fixed; top: 0; left: 0; right: 0; padding: 6px 10px; white-space: pre;
+  background: rgba(14, 18, 32, 0.78); pointer-events: none; }
+#line1 { color: rgb(255, 250, 215); font-weight: bold; }
+#line2 { color: rgb(188, 188, 188); }
+#line3 { color: rgb(138, 138, 138); }
+#inspector { position: fixed; top: 76px; right: 12px; width: 360px; max-height: calc(100% - 100px);
+  overflow: auto; padding: 10px 12px; background: rgba(14, 18, 32, 0.9);
+  border: 1px solid rgba(236, 246, 255, 0.25); border-radius: 6px; }
+#inspector h2 { margin: 0 0 6px; font-size: 14px; color: rgb(255, 250, 215); overflow-wrap: anywhere; }
+#inspector p { margin: 0 0 6px; color: rgb(200, 200, 200); }
+#inspector ul { margin: 0; padding-left: 18px; color: rgb(255, 170, 150); }
+#message { position: fixed; top: 76px; left: 12px; right: 12px; padding: 12px;
+  background: rgba(14, 18, 32, 0.92); font-size: 15px; }
+#labels { position: fixed; inset: 0; pointer-events: none; overflow: hidden; }
+#labels .label { position: absolute; transform: translate(-50%, -100%); white-space: pre;
+  padding: 1px 5px; border-radius: 3px; font-size: 12px; background: rgba(14, 18, 32, 0.78);
+  color: rgb(236, 236, 236); }
+#labels .label.place { color: rgb(200, 200, 210); background: rgba(14, 18, 32, 0.6); }
+[hidden] { display: none !important; }
